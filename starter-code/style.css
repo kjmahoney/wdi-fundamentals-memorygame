@@ -23,6 +23,15 @@ nav{
 	background-color: #808080;
 }
 
+img{
+	height: 200px;
+	width: 150px;
+	background-color: yellow;
+	border: 1px solid black;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 5%;
+}
 
 a:hover {
     color: #ee5f3c;
