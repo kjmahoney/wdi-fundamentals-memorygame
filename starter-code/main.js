@@ -5,7 +5,25 @@ var cardTwo = "king";
 var cardThree = "queen";
 var cardFour = "king";
 
-var userchoice = prompt("First Pick: pick cards 1, 2, 3, or 4")
+var board = document.getElementById('game-board');
+
+var createBoard = function() {
+
+for (var i = 0; i < 4; i++) {
+   var newCard = document.createElement('div');
+	newCard.className = 'card';
+	board.appendChild(newCard);
+}
+}
+/*var board = document.getElementById('game-board');
+
+var newCard = document.createElement('div');
+
+newCard.className = 'card';
+
+board.appendChild(newCard);
+
+/*var userchoice = prompt("First Pick: pick cards 1, 2, 3, or 4")
 var firstPick
 
 if (userchoice == 1) {
@@ -66,7 +84,7 @@ if (firstPick == secondPick) {
 }
 else {
 	alert ("Sorry, try again.");
-}
+} */
 	
 
 
